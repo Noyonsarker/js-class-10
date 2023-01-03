@@ -25,4 +25,11 @@ h5.textContent = "This is heading five";
 h6.textContent = "This is heading six(Js)";
 
 textAdd.append(h1, h2, h3, h4, h5, h6);
+
+// document.getElementById("text-add").style.color = "red";
+// document.getElementById("text-add").style.textAlign = "center";
+// !! Google search
+document
+  .getElementById("text-add")
+  .setAttribute("style", "text-Align:center; color : red");
 // !!!!!
